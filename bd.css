@@ -1,0 +1,39 @@
+body{
+	background: linear-gradient(to top left,
+      #feb692,purple);
+}
+h1{
+	padding: 5px;
+	text-align: center;
+	background-color: white;
+	box-shadow: 10px 10px 5px black;
+}
+h1 img{
+	width: 20px;
+	float: left;
+	padding:8px;
+	border-radius: 50px;
+	background-color: white;
+	border: 2px solid black;
+	transform: rotate(180deg);
+}
+.container{
+	width: 100%;
+	height: 2000px;
+	text-align: center;
+}
+img{
+	width: 100px;
+}
+.down{
+	transform: rotate(90deg);
+}
+
+@media only screen and (max-width: 1000px){
+	h1{
+		font-size: 70px;
+	}
+	a img{
+		width: 60px;
+	}
+}

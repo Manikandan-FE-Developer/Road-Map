@@ -1,0 +1,67 @@
+body{
+	background: linear-gradient(60deg, #92ffc0, #002661,#92ffc0,#002661);
+	background-size: 800% 800%;
+	animation: anim 10s infinite ease-in-out;
+}
+@keyframes anim{
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
+h1{
+	padding: 5px;
+	text-align: center;
+	background-color: white;
+	box-shadow: 10px 10px 5px black;
+}
+.container{
+	text-align: center;
+}
+button{
+	margin: 20px;
+	width: 280px;
+	height: 80px;
+	font-size: 20px;
+	font-weight: bold;
+	box-shadow: 5px 5px 5px black;
+}
+.fd button{
+	background: linear-gradient(to bottom left,
+      #81fbb8,green);
+}
+.bd button{
+	background: linear-gradient(to bottom left,
+      #feb692,red);
+}
+.fsd button{
+	background: linear-gradient(to bottom left,
+      #f97794,#623aa2);
+}
+.wd button{
+	background: linear-gradient(to bottom left,
+      #fccf31,#f55555);
+}
+.uid button{
+	background: linear-gradient(to bottom left,
+      #ffdb01,#0e197d);
+}
+
+@media only screen and (max-width: 1000px){
+	h1{
+		font-size: 70px;
+	}
+	.container{
+	}
+	button{
+		font-size: 50px;
+		width: 600px;
+		height: 150px;
+		margin-top: 60px;
+	}
+}
